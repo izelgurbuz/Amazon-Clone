@@ -40,7 +40,7 @@ REACT_APP_FIREBASE_MESSAGE_SENDER_ID="XXXXXXXXXXXXX"
 REACT_APP_FIREBASE_APP_ID="1:XXXXXXXXX:web:XXXXXXXX"
 ```
 
-Login to Stripe and get your test api keys. Then, add your publishable key and secret key into `.env`file as follows;
+Login to Stripe and get your test api keys. Then, add your publishable key and secret key into `.env`file as follows:
 
 ```env
 REACT_APP_STRIPE_PUBLIC_KEY="XXXXXXXXX"
@@ -64,5 +64,16 @@ cd functions
 npm i
 npm run build
 firebase deploy --only functions
+```
+
+Add your Function URL into `.env`file as follows:
+
+```env
+REACT_APP_FIREBASE_FUNCTION_API="XXXXXXXX"
+```
+
+Then, run following command:
+
+```bash
 firebase emulators:start
 ```
