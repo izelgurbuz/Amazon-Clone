@@ -2,8 +2,10 @@
 
 It is Full Stack Amazon Clone created with ReactJs frontend and NodeJs with ExpressJS backend.
 This project includes similar UI as https://www.amazon.co.uk/, payment system created with Stripe, authorization and real time database with Firebase. You can create new account with your e-mail and password and must login for payment process. You can add items to your basket, remove them, proceed to payment and test the actual payment process. Your orders will be displayed in real time as you completed the payment.
+Live version: https://challenge-b65d5.web.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
 
 ## Prerequisities
 
